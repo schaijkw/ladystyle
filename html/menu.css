@@ -1,0 +1,23 @@
+#menu{
+  position: absolute;
+ top: 120px; 
+}
+#menu a{
+  background-color: #ddd;
+  border-radius: 7px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+#menu a:hover{
+  background-color: #675159;
+  color: #fff;
+}
+ul#navlist{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#navlist li{
+  float: left;
+  margin-right: 10px;
+}
