@@ -1,0 +1,183 @@
+* {
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body, html{
+  height: 100%;
+  font-family: Verdana, Arial;
+  font-size: 9pt;
+  margin: 0 auto;
+}
+body.main{  
+  text-align: center;
+  background: #d3cfc7; 
+}
+td{
+ line-height: 18px;
+}
+#wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  height: 100%;
+  width: 100%;
+}
+#MainTable{
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  height: 100%;
+  width:950px;
+}
+#top{
+	background-image:url(../pict/top.gif);
+   	background-repeat: no-repeat;	   
+   	height: 157px;
+}
+label.error{
+	display: inline-block;
+	position: absolute;
+	color: red;
+    padding-left: 5px;
+	width: 300px;
+}
+#mid{
+  background-image:url(../pict/mid.gif);
+  padding-left:60px;
+  padding-right:40px;	
+  text-align: left;
+}
+#bot{
+  background-image:url(../pict/bot.gif);
+  height: 31px;
+  color: white;
+  padding-top:3px;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+}
+.adminmenu{
+  height: 85px;
+  width:600px;
+  text-align: right;
+  padding-top:65px;
+
+}
+UL {
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 10px;
+  line-height: 16px;
+}
+OL {
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 10px;
+  line-height: 16px;
+}
+.butt {
+  	border: 1px solid #ffffff;
+    background: #675159;
+    color:white;
+	font-size:9pt;
+	font-weight:bold;
+	line-height : 16px;
+}
+.ebutt {
+  	border: 1px solid #ffffff;
+    background: #a3a3a3;
+    color:white;
+	font-size:9pt;
+	font-weight:bold;
+	line-height : 16px;
+}
+img{
+	border: 0px;
+}
+.input {
+	border: 1px solid black;
+    background: #ccb9c1;
+	padding-left: 2px;
+}
+textarea{
+  font-family: Verdana;
+  font-size: 9pt;
+}
+p,tr,td,table {
+  vertical-align: top;
+  font-family: Verdana;
+  font-size:9pt;
+}
+.logo{
+  padding-top:15px;
+  height: 196px;
+  width: 245px;
+}
+.kop{
+  color: #4e3c43;
+  font-weight: bold;	
+}
+.content{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.kader{
+  background-image:url(../pict/kader.gif);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;	
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+a:link, a:visited, a:hover, a:active {color: black}
+a:link, a:visited, a:active {text-decoration: underline; }
+a:hover {text-decoration: none;}
+
+a.nlink:link, a.nlink:visited, a.nlink:hover, a.nlink:active { 	font-size:9pt; color: black; text-decoration: none;}
+a.nlink:hover {color: black; text-decoration: underline;}
+a.actief:link, a.actief:visited, a.actief:hover, a.actief:active { font-size:9pt; color: black; text-decoration: underline;}
+label{
+  width: 120px;
+  float: left;
+  font-weight: bold;
+}
+.veld, textarea{
+  height: 25px;
+  padding: 3px;
+  margin: 3px;
+  width: 300px;
+}
+a.btn, button{
+ background-color: red; 
+ color: #fff;
+ text-decoration: none;
+ padding: 5px 10px;
+ border-radius: 4px;
+ border: 0px transparent;
+}
+a.btn:hover, button:hover{
+  background-color: #888;
+}
+.knoppen{
+  position: absolute;
+  margin: 5px;
+}
+
+.adminmenu{
+  position: absolute;
+  margin: -20px 20px;
+  width: 600pc;
+}
+.adminmenu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.adminmenu ul li{
+  float: left;
+  margin-right: 5px;
+}
